@@ -1,0 +1,371 @@
+body {
+    width: 1280px;
+    height: 1024px;
+}
+
+body .wrapper {
+    width: 1280px;
+    height: 1024px;
+}
+
+.body-index .wrapper {
+    background-image: url('/images/body-index_1024.png');
+}
+
+.body-index .wrapper .logo,
+.body-photoalbums .wrapper .logo,
+.body-teachers .wrapper .logo,
+.body-news .wrapper .logo,
+.body-events .wrapper .logo {
+    position: absolute;
+    width: 159px;
+    left: 35px;
+    top: 85px;
+}
+
+.body-teachers .wrapper .logo,
+.body-news .wrapper .logo,
+.body-events .wrapper .logo {
+    top: 80px;
+}
+
+.body-index .wrapper .logo img,
+.body-photoalbums .wrapper .logo img,
+.body-teachers .wrapper .logo img,
+.body-news .wrapper .logo img,
+.body-events .wrapper .logo img {
+    width: 123px;
+    display: block;
+    margin: 0 auto;
+}
+
+.body-index .wrapper .novosti {
+    width: 314px;
+    height: 267px;
+    right: 35px;
+    top: 28px;
+}
+
+.body-index .wrapper .events {
+    width: 260px;
+    height: 267px;
+    right: 465px;
+    top: 28px;
+}
+
+.body-index .wrapper .photoalbums {
+    width: 370px;
+    height: 393px;
+    right: auto;
+    left: 35px;
+    bottom: auto;
+    top: 312px;
+}
+
+.body-index .wrapper .schedule {
+    width: 330px;
+    height: 396px;
+    right: 393px;
+    top: 312px;
+}
+
+.body-index .wrapper .maps {
+    width: 370px;
+    height: 271px;
+    bottom: 28px;
+    left: 335px;
+}
+
+.body-index .wrapper .maps span {
+    left: 200px;
+    width: 150px;
+}
+
+.body-index .wrapper .teachers {
+    width: 260px;
+    height: 271px;
+    right: 210px;
+    bottom: 28px;
+}
+
+.body-index .wrapper .datetime {
+    top: 324px;
+    right: 35px;
+    width: 335px;
+}
+
+.body-photoalbums .wrapper {
+    background-image: url('/images/body-teachers_1024.png');
+}
+
+.body-photoalbums-detail .wrapper {
+    background-image: url('/images/body-photoalbums-detail.png');
+}
+
+.body-teachers .wrapper {
+    background-image: url('/images/body-teachers_1024.png');
+}
+
+.body-news .wrapper {
+    background-image: url('/images/body-teachers_1024.png');
+}
+
+.body-events .wrapper {
+    background-image: url('/images/body-teachers_1024.png');
+}
+
+.news-item:nth-of-type(2) {
+    left: 35px;
+    width: calc(468px - 35px);
+    height: calc(600px - 20px);
+    top: 245px;
+}
+
+.body-photoalbums .wrapper .backbutton,
+.body-photoalbums-detail .wrapper .backbutton,
+.body-teachers .wrapper .backbutton,
+.body-news .wrapper .backbutton,
+.body-events .wrapper .backbutton {
+    padding: 140px 16px;
+    bottom: 45px;
+    left: 35px;
+}
+
+.body-teachers .wrapper .backbutton,
+.body-news .wrapper .backbutton,
+.body-events .wrapper .backbutton {
+    padding: 35px 80px;
+}
+
+.news-detail-text {
+    left: 550px;
+    right: 50px;
+    height: 680px;
+    top: 300px;
+}
+
+.news-detail-title span {
+    left: 550px;
+}
+
+.news-detail-title h1 {
+    left: 550px;
+}
+
+ul.events-cats {
+    left: 35px;
+    top: 260px;
+    width: 440px !important;
+    height: 560px;
+}
+
+.sch-item {
+    width: 700px !important;
+    margin-left: 520px !important;
+}
+
+.teachers-item-image {
+    height: 200px;
+}
+
+.teachers-item:nth-of-type(2) {
+    left: 35px;
+    top: 250px;
+}
+
+.teachers-item:nth-of-type(3) {
+    left: 355px;
+    top: 250px;
+}
+
+.teachers-item:nth-of-type(4) {
+    left: 675px;
+    top: 250px;
+}
+
+.teachers-item:nth-of-type(5) {
+    left: 995px;
+    top: 250px;
+}
+
+.teachers-item:nth-of-type(6) {
+    left: 35px;
+    top: 550px;
+}
+
+.teachers-item:nth-of-type(7) {
+    left: 355px;
+    top: 550px;
+}
+
+.teachers-item:nth-of-type(8) {
+    left: 675px;
+    top: 550px;
+}
+
+.teachers-item:nth-of-type(9) {
+    left: 995px;
+    top: 550px;
+}
+
+.body-teachers .pagination {
+    left: 1060px;
+    right: 35px;
+}
+
+.teacher-detail-pic {
+    left: 35px;
+    top: 250px;
+    width: 450px;
+}
+
+.teacher-detail-name {
+    left: 550px;
+    top: 50px;
+}
+
+.teacher-detail-text {
+    left: 550px;
+    top: 300px;
+    height: 650px;
+    right: 50px;
+}
+
+.mr {
+    margin-left: 525px !important;
+    transform: scale(0.6);
+    width: 1200px;
+    transform-origin: 0 150px;
+    height: 1400px !important;
+}
+
+.news-item:nth-of-type(3) {
+    top: 56px;
+    left: 530px;
+    width: 345px;
+}
+
+.news-item:nth-of-type(4) {
+    top: 56px;
+    right: 35px;
+    width: 345px;
+}
+
+.news-item:nth-of-type(5) {
+    top: 335px;
+    left: 530px;
+    width: 345px;
+}
+
+.news-item:nth-of-type(6) {
+    top: 335px;
+    right: 35px;
+    width: 345px;
+}
+
+.news-item:nth-of-type(7) {
+    top: 614px;
+    left: 530px;
+    width: 345px;
+}
+
+.news-item:nth-of-type(8) {
+    top: 614px;
+    right: 35px;
+    width: 345px;
+}
+
+.body-news .pagination {
+    left: 1060px;
+    right: 35px;
+}
+
+.photoalbums-item:nth-of-type(2) {
+    width: 340px;
+    height: 200px;
+    left: 535px;
+    top: 32px;
+}
+
+.photoalbums-item:nth-of-type(3) {
+    width: 340px;
+    height: 200px;
+    right: 35px;
+    top: 32px;
+}
+
+.photoalbums-item:nth-of-type(4) {
+    width: 380px;
+    height: 330px;
+    left: 35px;
+    top: 249px;
+}
+
+.photoalbums-item:nth-of-type(5) {
+    width: 380px;
+    height: 330px;
+    left: 450px;
+    top: 249px;
+}
+
+.photoalbums-item:nth-of-type(6) {
+    width: 380px;
+    height: 330px;
+    left: auto;
+    right: 35px;
+    top: 249px;
+}
+
+.photoalbums-item:nth-of-type(7) {
+    width: 590px;
+    height: 230px;
+    right: auto;
+    left: 35px;
+    bottom: 185px;
+}
+
+.photoalbums-item:nth-of-type(8) {
+    width: 590px;
+    height: 230px;
+    right: 35px;
+    left: auto;
+    bottom: 185px;
+}
+
+.body-photoalbums .wrapper .backbutton,
+.body-photoalbums-detail .wrapper .backbutton {
+    padding: 30px 80px;
+}
+
+.body-photoalbums .wrapper .pagination {
+    right: 35px;
+    left: 960px;
+    bottom: 15px;
+}
+
+.photoalbums-detail-slider {
+    margin-left: 400px;
+    margin-right: 35px;
+    padding-top: 50px;
+}
+
+.photoalbums-detail-item {
+    width: 100%; /* full width */
+    height: 700px;
+    /* center images in cells with flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 16px;
+}
+
+.photoalbums-detail-item img {
+    display: block;
+    max-height: 100%;
+    min-height: auto;
+    max-width: 100%;
+}
+
+.body-photoalbums-detail h1 {
+    left: 35px;
+}

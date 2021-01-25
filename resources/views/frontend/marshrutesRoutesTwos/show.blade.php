@@ -73,7 +73,7 @@
     <div class="wrapper">
 
 
-        <div style="overflow-y:scroll;height: 1055px; margin-left: 650px; padding-top: 25px;">
+        <div class="mr" style="overflow-y:scroll;height: 1055px; margin-left: 650px; padding-top: 25px;">
         <p style="font-size: 20px; font-weight: bold; margin-bottom: 10px; display:block;">{{ $marshrutesRoutesTwo->marshrutesroutes_floor->marshrutesfloor_title ?? '' }}</p>
         <div class="wrapper-map">
             <div class="map">
