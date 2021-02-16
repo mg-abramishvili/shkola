@@ -78,7 +78,7 @@
         
         <div class="wrapper-map">
             <div class="map">
-                <img id="imageToSwap" src="http://localhost{{ $marshrutesRoute->marshrutesroutes_floor->marshrutesfloor_image->getUrl() }}"/>
+                <img id="imageToSwap" src="{{ $marshrutesRoute->marshrutesroutes_floor->marshrutesfloor_image->getUrl() }}"/>
             </div>
             <svg class="map-path" viewbox="0 0 800 450">
 
@@ -149,11 +149,11 @@
         </div>
 
 
-
+@if($marshrutesRoute->marshrutesroutes_floorsecond)
         <p style="font-size: 20px; font-weight: bold; margin-bottom: 10px; display:block;">{{ $marshrutesRoute->marshrutesroutes_floorsecond->marshrutesfloor_title ?? '' }}</p>
         <div class="wrapper-map">
             <div class="map">
-                <img id="imageToSwap" src="http://localhost{{ $marshrutesRoute->marshrutesroutes_floorsecond->marshrutesfloor_image->getUrl() }}"/>
+                <img id="imageToSwap" src="{{ $marshrutesRoute->marshrutesroutes_floorsecond->marshrutesfloor_image->getUrl() }}"/>
             </div>
             <svg class="map-path" viewbox="0 0 800 450">
 
@@ -222,6 +222,7 @@
 
             </svg>
         </div>
+        @endif
         </div>
 
 

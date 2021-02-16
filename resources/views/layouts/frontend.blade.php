@@ -8,7 +8,7 @@
     <title>Школа 1770</title>
 
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/style_1024.css">
+    <!--<link rel="stylesheet" href="/css/style_1024.css">-->
     <link rel="stylesheet" href="/css/flickity.css">
     @yield('styles')
 </head>
